@@ -1,0 +1,50 @@
+body{
+background-color: coral;
+font-family: 'Hubballi', cursive;
+}
+
+.heading{
+    color: chartreuse;
+    margin-top: 10px;
+    letter-spacing: 8px;
+    font-size: 50px;
+}
+#start{
+    color: aqua;
+    font-family: comic;
+    margin-top: 20px;
+}
+
+.Phone{
+    background-color:greenyellow;
+    padding: top 15px;
+    color: darkorange;
+}
+
+.Photo{
+    background-color: bisque;
+    color: cornflowerblue;
+    position: fixed;
+    width: 100%;
+    font-size: 20px;
+    bottom: 0;
+    line-height: 4px;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(255,10,3);
+
+}
+
+.Mobile{
+    background-color: crimson;
+     
+    color: violet;
+}
+
+.Mobile p{
+letter-spacing: 3px;
+color: aquamarine;
+font-weight: bolder;
+font-size: 15px;
+
+}
+

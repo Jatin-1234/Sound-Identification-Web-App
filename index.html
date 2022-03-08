@@ -1,0 +1,50 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="col-xs-12 Mobile text-center"><h1 class="Heading">Sound Controlled Aliens</h1>
+    <p>
+      Note: Play Different sounds like Clap , Snap , Bell and Background Noise to make Aliens Dance
+    </p>
+    
+    </div>
+    
+      <center>
+<div class="col-xs-12 Phone"><button id="start" class="btn btn-danger" onclick="startClassification()">Start Hoja</button> 
+<h2>I Can Hear : 
+  <span id="Spansound"></span>
+</h2>
+<h2> Accuracy :
+  <span id="Spanaccuracy"></span>
+</h2>
+<br>
+<img src="aliens-01.png" id="Alien1"  width="300" height="250">
+<img src="aliens-02.png" id="Alien2"  width="300" height="250">
+<img src="aliens-03.png" id="Alien3"  width="300" height="250">
+<img src="aliens-04.png" id="Alien4"  width="300" height="250">
+</div>
+<div class="col-xs-12 Photo"><h5><i>Developed By Jatin Malik</i></h5></div>
+      </center>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
